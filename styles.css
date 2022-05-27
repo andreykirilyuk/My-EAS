@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  background-color: rgb(56, 54, 54);
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 700px;
+  height: 700px;
+  margin: 0px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bottom {
+  margin-top: 20px;
+  font-size: 20px;
+}
